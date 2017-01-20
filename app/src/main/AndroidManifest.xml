@@ -15,7 +15,41 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Taberna Vendor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAINS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sales"
+            android:label="SALES">
+            <intent-filter>
+                <action android:name="android.intent.action.SALES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Inventory"
+            android:label="INVENTORY">
+            <intent-filter>
+                <action android:name="android.intent.action.INVENTORY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Logout"
+            android:label="LOGOUT">
+            <intent-filter>
+                <action android:name="android.intent.action.LOGOUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

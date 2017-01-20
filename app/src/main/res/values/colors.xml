@@ -4,4 +4,11 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="AppBlue">#4667A8</color>
+
+    <color name="PIyellow">#ff9900</color>
+    <color name="PIgreen">#109618</color>
+    <color name="PIpurple">#990099</color>
+    <color name="PIblue">#00ffff</color>
+    <color name="PIred">#dc3912</color>
+    <color name="PIgray">#c0c0c0</color>
 </resources>

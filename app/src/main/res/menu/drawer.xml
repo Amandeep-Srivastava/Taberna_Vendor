@@ -3,21 +3,21 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/takeorder"
+            android:id="@+id/homes"
             android:icon="@drawable/ic_emoticon"
             android:title="Home" />
         <item
-            android:id="@+id/delivery"
+            android:id="@+id/sales"
             android:icon="@drawable/ic_emoticon"
             android:title="Sales" />
         <item
-            android:id="@+id/guest"
+            android:id="@+id/inventory"
             android:icon="@drawable/ic_emoticon"
             android:title="Inventory" />
         <item
             android:icon="@drawable/ic_emoticon"
             android:title="Logout"
-            android:id="@+id/makecomplaint"/>
+            android:id="@+id/logout"/>
     </group>
 
 </menu>
