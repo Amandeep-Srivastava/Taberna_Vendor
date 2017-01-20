@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Taberna Vendor</string>
+    <string name="drawer_header_text">Taberna</string>
 </resources>
