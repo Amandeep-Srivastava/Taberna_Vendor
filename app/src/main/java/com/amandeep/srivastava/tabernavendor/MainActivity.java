@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 int id = menuItem.getItemId();
                 switch(id){
                     case R.id.homes:
-                        Intent intent = new Intent("android.intent.action.MAINS");
+                        Intent intent = new Intent("android.intent.action.HOME");
                         startActivity(intent);
                         return true;
                     case R.id.sales:

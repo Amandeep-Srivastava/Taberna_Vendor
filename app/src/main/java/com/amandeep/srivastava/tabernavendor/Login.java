@@ -33,7 +33,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         if((username.getText().toString().equalsIgnoreCase("hackfest"))&&(password.getText().toString().equals("hackfest"))){
 
             preferences.edit().putInt("LoggedIn",1).apply();
-            Intent ii = new Intent(Login.this,MainActivity.class);
+            Intent ii = new Intent(Login.this,Home.class);
             finish();
             startActivity(ii);
 
@@ -68,7 +68,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         preferences = this.getSharedPreferences(getPackageName(), Context.MODE_PRIVATE);
         int logValue = preferences.getInt("LoggedIn",0);
         if(logValue == 1){
-            Intent ii = new Intent(Login.this,MainActivity.class);
+            Intent ii = new Intent(Login.this,Home.class);
             finish();
             startActivity(ii);
         }
