@@ -35,7 +35,7 @@
         </activity>
         <activity
             android:name=".Inventory"
-            android:label="INVENTORY">
+            android:label="Your Inventory">
             <intent-filter>
                 <action android:name="android.intent.action.INVENTORY" />
 
@@ -53,7 +53,7 @@
         </activity>
         <activity
             android:name=".Home"
-            android:label="LOGOUT">
+            android:label="Taberna">
             <intent-filter>
                 <action android:name="android.intent.action.HOME" />
 

@@ -16,4 +16,396 @@
         app:itemTextColor="#ffffff"
         app:menu="@menu/drawer"/>
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:layout_marginLeft="90dp"/>
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:layout_marginLeft="160dp"/>
+</LinearLayout>
+    <ScrollView
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="ID"
+                    android:layout_width="80dp"
+                    android:maxWidth="80dp"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:id="@+id/textView" />
+
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:maxWidth="140dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="140dp"
+                    android:textAlignment="center"
+                    android:text="Name"
+                    android:textSize="25sp"
+                    android:id="@+id/textView2" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:maxWidth="100dp"
+                    android:layout_marginLeft="25dp"
+                    android:textAlignment="center"
+                    android:text="Quantity"
+                    android:textSize="25sp"
+                    android:id="@+id/textView3" />
+
+            </TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/black"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:background="@android:color/white"
+                android:text="**Gadgets**"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:gravity="bottom"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+            <TableRow>
+
+                <TextView
+                    android:marginTop="10dp"
+                    android:layout_height="35dp"
+                    android:text="ID"
+                    android:layout_width="80dp"
+                    android:gravity="bottom"
+                    android:maxWidth="80dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:layout_height="35dp"
+                    android:maxWidth="140dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="140dp"
+                    android:textAlignment="center"
+                    android:text="Concepts of Physics"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView7" />
+
+                <EditText
+                    android:layout_marginTop="4dp"
+                    android:layout_width="120dp"
+                    android:maxWidth="120dp"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:text="15"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:id="@+id/editText2" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:marginTop="10dp"
+                    android:layout_height="35dp"
+                    android:text="ID"
+                    android:layout_width="80dp"
+                    android:gravity="bottom"
+                    android:maxWidth="80dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:layout_height="35dp"
+                    android:maxWidth="140dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="140dp"
+                    android:textAlignment="center"
+                    android:text="Concepts of Physics"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white" />
+
+                <EditText
+                    android:layout_marginTop="4dp"
+                    android:layout_width="120dp"
+                    android:maxWidth="120dp"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:text="15"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:marginTop="10dp"
+                    android:layout_height="35dp"
+                    android:text="ID"
+                    android:layout_width="80dp"
+                    android:gravity="bottom"
+                    android:maxWidth="80dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:layout_height="35dp"
+                    android:maxWidth="140dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="140dp"
+                    android:textAlignment="center"
+                    android:text="Concepts of Physics"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white" />
+
+                <EditText
+                    android:layout_marginTop="4dp"
+                    android:layout_width="120dp"
+                    android:maxWidth="120dp"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:text="15"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:marginTop="10dp"
+                    android:layout_height="35dp"
+                    android:text="ID"
+                    android:layout_width="80dp"
+                    android:gravity="bottom"
+                    android:maxWidth="80dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:layout_height="35dp"
+                    android:maxWidth="140dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="140dp"
+                    android:textAlignment="center"
+                    android:text="Concepts of Physics"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white"/>
+
+                <EditText
+                    android:layout_marginTop="4dp"
+                    android:layout_width="120dp"
+                    android:maxWidth="120dp"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:text="15"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:marginTop="10dp"
+                    android:layout_height="35dp"
+                    android:text="ID"
+                    android:layout_width="80dp"
+                    android:gravity="bottom"
+                    android:maxWidth="80dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:layout_height="35dp"
+                    android:maxWidth="140dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="140dp"
+                    android:textAlignment="center"
+                    android:text="Concepts of Physics"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white"/>
+
+                <EditText
+                    android:layout_marginTop="4dp"
+                    android:layout_width="120dp"
+                    android:maxWidth="120dp"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:text="15"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:marginTop="10dp"
+                    android:layout_height="35dp"
+                    android:text="ID"
+                    android:layout_width="80dp"
+                    android:gravity="bottom"
+                    android:maxWidth="80dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:layout_height="35dp"
+                    android:maxWidth="140dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="140dp"
+                    android:textAlignment="center"
+                    android:text="Concepts of Physics"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white" />
+
+                <EditText
+                    android:layout_marginTop="4dp"
+                    android:layout_width="120dp"
+                    android:maxWidth="120dp"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:text="15"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:marginTop="10dp"
+                    android:layout_height="35dp"
+                    android:text="ID"
+                    android:layout_width="80dp"
+                    android:gravity="bottom"
+                    android:maxWidth="80dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:layout_height="35dp"
+                    android:maxWidth="140dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="140dp"
+                    android:textAlignment="center"
+                    android:text="Concepts of Physics"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white" />
+
+                <EditText
+                    android:layout_marginTop="4dp"
+                    android:layout_width="120dp"
+                    android:maxWidth="120dp"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:text="15"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:marginTop="10dp"
+                    android:layout_height="35dp"
+                    android:text="ID"
+                    android:layout_width="80dp"
+                    android:gravity="bottom"
+                    android:maxWidth="80dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:layout_height="35dp"
+                    android:maxWidth="140dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="140dp"
+                    android:textAlignment="center"
+                    android:text="Concepts of Physics"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white"/>
+
+                <EditText
+                    android:layout_marginTop="4dp"
+                    android:layout_width="120dp"
+                    android:maxWidth="120dp"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:text="15"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:marginTop="10dp"
+                    android:layout_height="35dp"
+                    android:text="ID"
+                    android:layout_width="80dp"
+                    android:gravity="bottom"
+                    android:maxWidth="80dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:layout_height="35dp"
+                    android:maxWidth="140dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="140dp"
+                    android:textAlignment="center"
+                    android:text="Concepts of Physics"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white" />
+
+                <EditText
+                    android:layout_marginTop="4dp"
+                    android:layout_width="120dp"
+                    android:maxWidth="120dp"
+                    android:layout_marginLeft="15dp"
+                    android:textAlignment="center"
+                    android:text="15"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+            </TableRow>
+
+
+
+        </TableLayout>
+
+    </ScrollView>
+
 </android.support.v4.widget.DrawerLayout>
